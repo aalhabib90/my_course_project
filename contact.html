@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #001f3f; /* Dark blue background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #000000; /* White text color */
+        }
+
+        nav {
+            background-color: #003d50;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        #contact-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff; /* Dark blue background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #contact-container h1 {
+            color: #000000; /* White title color */
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+
+        .contact-icon {
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        #message-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            background-color: #fff; /* White background for message box */
+            color: #001f3f; /* Dark blue text color for message box */
+        }
+
+        #submit-button {
+            background-color: #ff0000; /* Red button color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="coursec.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div id="contact-container">
+        <h1>Contact</h1>
+
+        <div class="contact-info">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p>Email: <a href="mailto:alhabib.abdulrahman@gmail.com">alhabib.abdulrahman@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info">
+            <i class="fas fa-phone-alt contact-icon"></i>
+            <p>Phone: +966 54 338 0388</p>
+        </div>
+        <div 
+            class="contact-info"
+            <i class="fas fa-x contact-icon"></i>
+            <p>Follow me on Twitter: <a href="https://twitter.com/aalhabib90" target="_blank">@aalhabib90</a></p>
+        </div>
+        <textarea id="message-box" placeholder="Write your message here..."></textarea>
+
+        <button id="submit-button">Submit</button>
+    </div>
+</body>
+
+</html>

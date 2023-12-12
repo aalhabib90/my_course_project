@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  *{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+  }
+       
+       
+       /* Your existing styles remain unchanged */
+
+        /* New styles for the navigation bar */
+        nav {
+            background-color: #003d50;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        #container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            /* Add the following styles to center the content */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+   
+        
+
+
+
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: #003d50;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        #courses-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center; /* Center the content vertically */
+        }
+
+        #page-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #choose-course-text {
+            margin-bottom: 20px;
+        }
+
+        .course-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            object-fit: cover;
+        }
+
+        .image-caption {
+            margin-top: 10px;
+        }
+
+        h1{
+          text-align: center;
+        }
